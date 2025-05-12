@@ -13,6 +13,6 @@ main = E.setLocaleEncoding E.utf8 >> hakyllWith hakyllConfig site
 hakyllConfig :: Configuration
 hakyllConfig =
   defaultConfiguration
-    { destinationDirectory = "site",
+    { destinationDirectory = "docs",
       providerDirectory = "content"
     }
