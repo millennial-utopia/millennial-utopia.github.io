@@ -1,0 +1,139 @@
+terms:
+  # Note: single quotes in term definitions must be escaped like ', because they are compiled to HTML
+  # (so we can't use double quotes to avoid escaping single quotes). The \\ escapes the following
+  # single quote in a single-quoted JSON string; the \' escapes the single quote from the the RST compiler.
+  - term: person
+    alternatives: [persons]
+    definition: |
+      A *person* is any individual who can demonstrate `agency` and recognize it in other persons.
+  - term: agency
+    alternatives: []
+    definition: |
+      *Agency* is a `person`'s ability to freely choose for themselves how to act.
+  - term: adult
+    alternatives: [adults]
+    definition: |
+      An *adult* is any human who is able to exercise complete personal `agency` responsibly and independently.
+  - term: child
+    alternatives: [children]
+    definition: |
+      A *child* is any human from birth until they can be considered an `adult`.
+  - term: guardian
+    alternatives: [guardians, guardianship]
+    definition: |
+      A `child`'s *guardian* is an `adult` who is permitted to exercise agency on a child's behalf.
+      
+      By default, both biological parents and all living direct ancestors are a child's guardians.
+  - term: society
+    alternatives: []
+    definition: |
+      A *society* is a system of cooperation by mutual consent between individual `persons`. It may be explicitly defined by `laws`, or implicitly upheld by its members.
+  - term: rights
+    alternatives: []
+    definition: |
+      *Rights* define the level of `agency` a `society` allows to an individual `person`.
+  - term: just
+    alternatives: []
+    definition: |
+      A *just* society is one which guarantees the same `rights` equally to all `persons`.
+  - term: government
+    alternatives: [governmental]
+    definition: |
+      A *government* is any organization which is entrusted by a `society` to:
+
+      * support the `rights` of its `citizens` by managing shared resources; and
+      * defend those rights by enacting `legitimate punishments` upon persons who commit `crimes`.
+  - term: corrupt
+    alternatives: []
+    definition: |
+      A *corrupt* `government` is one which willfully or negligently abuses its power to protect the `rights` of certain `citizens` at the expense of others.
+  - term: citizen
+    alternatives: [citizens, citizenship]
+    definition: |
+      A *citizen* of a particular `society` is a `person` whose `rights` are guaranteed by that society's `government`, in return for that person's implicit assent to abide by any of its `laws`.
+  - term: law
+    alternatives: [laws]
+    definition: |
+      A *law* is public written documentation published by a `government` to direct its own activities or the behavior of its `citizens`.
+  - term: due process
+    alternatives: [due legal process]
+    definition: |
+      *Due process* of law is the set of rules and procedures, defined by `law`, by which a `society` allows its `government` to investigate, prove, and punish `crimes`. This includes at least:
+
+      - Universal presumption of innocence until guilt is proven beyond reasonable doubt;
+      - Universal access to legal representation that provides equal protection before the law;
+      - Limiting the scope of warranted violation of personal privacy to the extent justifiably necessary for successful prosecution of a crime; and
+      - Equal and reasonably generous opportunity for the accused to attend their trial, choose their own legal representative, and have their guilt decided by a jury.
+  - term: crime
+    alternatives: [crimes]
+    definition: |
+      A *crime* is any act, defined by `law`, by which one `person` harms or threatens the `rights` of another out of malice or negligence.
+  - term: punishment
+    alternatives: []
+    definition: |
+      A *punishment* is any act limiting the `agency` of a `person` who has committed a `crime`.
+  - term: legitimate punishment
+    alternatives: [legitimate punishments]
+    definition: |
+      A punishment is *legitimate* if it is enacted by a `government` in response to a `crime` under the following conditions:
+
+      - the crime is proven with `due legal process` to have been committed against an individual `citizen` of that government, or to have significantly affected the government's ability to provide for the `rights` of its citizens;
+      - the crime was defined by `law` at the time it occurred;
+      - the punishment is the minimum necessary length and severity to ensure the ongoing protection of the rights of all other citizens;
+      - any fines imposed are fairly representative of the damage done or prevented;
+      - no punishment may involve avoidable or intentional physical harm; and
+      - no punishment may involve avoidable emotional harm.
+  - term: high-technology
+    alternatives: [high technological]
+    definition: |
+      A *high-technology* `society` is one in which there is sufficient industry and automation to guarantee the `rights` specified in the MSC_ universally and equally, without requiring each `person` to be actively involved in producing goods or providing services.
+  - term: utopian
+    alternatives: []
+    definition: |
+      A *Utopian* is a `person` who believes that a truly `just` society is a practically achievable goal.
+  - term: millennial utopian
+    alternatives: []
+    definition: |
+      A *Millennial Utopian* is a `person` who believes that human society at the beginning of the 21st century has sufficiently `high technological` development to successfully implement a `just` `society`.
+  - term: abduction
+    alternatives: []
+    definition: |
+      *Abduction* is any act by which one `person` deprives another person of their right to travel freely. This includes but is not limited to slavery, kidnapping, or involuntary confinement.
+  - term: health care
+    alternatives: [healthcare]
+    definition: |
+      TBD
+  - term: nutrition
+    alternatives: []
+    definition: |
+      TBD
+  - term: sustainable environment
+    alternatives: []
+    definition: |
+      TBD
+  - term: residence
+    alternatives: [residences, resident, residents]
+    definition: |
+      A *residence* is a connected indoor area with controlled access to specific `persons`, the *residents*. A residence must have at least one private bedroom per resident (unless shared by mutual consent); sufficient toilets, sinks, and showers to provide for the sanitary needs of all residents; and sufficient kitchen space with food storage and dining areas for all residents.
+      
+      A residence is *short-term* if it guarantees access to a particular resident for less than one week, and *long-term* if it guarantees access to a particular resident for at least one year.
+
+      A residence is *safe* if it provides a healthy living environment with the least practicable risk of injury to any person inside it.
+  - term: basic utilities
+    alternatives: []
+    definition: |
+      *Basic utilities* are resources or services available in a `residence` which may not be limited except as a `legitimate punishment` in response to excessive consumption or misuse; and which in any case must always provide a reasonable minimum level of service. In contemporary human society, these resources or services must at least include:
+
+      - Potable running water (hot and cold)
+      - Electrical power
+      - Unrestricted access to public information and communication networks
+      - Shared and private storage for both physical belongings and personal data
+      - Climate control appropriate to expected local weather conditions
+  - term: identity information
+    alternatives: [identifiable]
+    definition: |
+      *Identity information* is any information (such as name, address, or date of birth) which identifies a specific `person` in a population.
+  - term: personal data
+    alternatives: []
+    definition: |
+      *Personal data* is any data which can be directly associated with one or more `identifiable` `persons`.

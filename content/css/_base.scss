@@ -1,0 +1,136 @@
+@use 'colors';
+@use 'card';
+
+body {
+  height: 100vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: 0;
+
+  @include colors.apply-base16-colors(colors.$base16-tomorrow);
+
+  header, footer, main {
+    font-family: 'Quattrocento Sans', sans-serif;
+  }
+
+  main.theory {
+    font-family: 'Quattrocento', serif;
+  }
+
+  main.lemontopia {
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  header {
+    flex: 0 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: flex-start;
+
+    #header-path {
+      margin-left: 32px;
+
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .header-element {
+      margin-right: 1em;
+    }
+
+    .header-fill {
+      flex: 1 1 auto;
+    }
+
+    .header-sep {
+      margin: 0 8px;
+    }
+  }
+
+  main {
+    padding: 0 32px;
+    flex: 1 0 auto;
+    align-items: flex-start;
+
+    code {
+      font-family: 'Cascadia Code', monospace;
+      font-size: 14px; // this font is kinda big
+    }
+
+    p > code {
+      padding: 0 0.25em; // inline code is a bit cramped
+    }
+
+    .card {
+      @include card.shadow;
+    }
+
+    p, dl, ul, ol {
+      max-width: 48em;
+    }
+
+    // never put bullets on a table of contents or any sublists
+    ul.contents, .contents ul {
+      list-style-type: none;
+    }
+
+    // no padding for the top ul of a table of contents...including if the root of the toc *is* a ul
+    ul.contents, .contents > ul {
+      padding: 0;
+    }
+
+    .contents {
+      dd ~ dt {
+        margin-top: 1em;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  }
+
+  footer {
+    flex: 0 0 auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 1em 32px;
+    align-self: stretch;
+
+    .footer-divider {
+      margin: 0 1em;
+    }
+
+    .footer-fill {
+      flex: 1 0 2em;
+    }
+
+    @media (max-width: 425px) {
+      flex-direction: column;
+
+      .footer-element {
+        margin-bottom: 0.5em;
+      }
+
+      .footer-divider, .footer-fill {
+        display: none;
+      }
+    }
+  }
+}

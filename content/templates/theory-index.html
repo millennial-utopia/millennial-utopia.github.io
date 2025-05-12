@@ -1,0 +1,13 @@
+<div id="index-container">
+  <div id="index-content">
+    $body$
+  </div>
+  <h2 id="theory-contents">Contents</h2>
+  <dl id="theory-contents-table" class="contents">
+    $for(section-contents)-$
+    <dt class="project-page"><a href="./$page-id$.html">$page-title$</a>
+      <dd class="page-blurb">$if(blurb)$$blurb$$endif$</dd>
+    </dt>
+    $-endfor$
+  </dl>
+</div>

@@ -1,0 +1,22 @@
+<div id="index-container">
+  <div id="index-content">
+    $body$
+  </div>
+  <h2 id="lemontopia-contents">Timeline</h2>
+  <table id="lemontopia-timeline">
+    <thead>
+      <th class="timeline-year"  scope="col">Year</th>
+      <th class="timeline-title" scope="col">Title</th>
+      <th class="timeline-blurb" scope="col">Description</th>
+    </thead>
+    <tbody>
+      $for(section-contents)-$
+      <tr>
+        <td class="timeline-year">$timeline-year$</td>
+        <th class="timeline-title" scope="row"><a href="./$page-id$.html">$page-title$</a></th>
+        <td class="timeline-blurb">$blurb$</td>
+      </tr>
+      $-endfor$
+    </tbody>
+  </table>
+</div>

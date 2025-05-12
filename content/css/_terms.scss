@@ -1,0 +1,66 @@
+@use 'card';
+
+.term-link {
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+
+  &:hover {
+    border-bottom-width: 2px;
+  }
+}
+
+#term-list {
+  margin-left: 2em;
+  flex: 0 0 32em;
+
+  #term-card-container {
+    position: sticky;
+    top: 2em;
+
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .term-card {
+    position: relative; // to allow absolute positioning for the close button
+    margin-top: 1em;
+    padding: 1em;
+
+    display: none;
+
+    // hovering over a term causes its definition card to lift
+    &.active-term {
+        display: block;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+    &.pinned-term {
+        display: block;
+    }
+
+    .close-term-card {
+      position: absolute;
+      top: 0.5em;
+      right: 0.5em;
+      cursor: pointer;
+    }
+  }
+
+  @media (max-width: 425px) {
+    position: sticky;
+    bottom: 1em;
+    flex: 1 1 auto;
+    margin: 0;
+
+    .term-card {
+      &.active-term, &.pinned-term {
+        display: none;
+      }
+    }
+
+    .term-card:last-child {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" prefix="og: https://ogp.me/ns#">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Enable autoscaling for smol screens -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- OpenGraph metadata for link previews -->
+    <meta property="og:title" content="Implementation Ideas">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://millennial-utopia.org//theory/implementation-ideas.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="millennial-utopia.org">
+
+    <!-- MathJax -->
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quattrocento">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cascadia+Code">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <title>Implementation Ideas - Millennial Utopia</title>
+  </head>
+
+  <body id="page-body" class="dark-mode">
+    <header>
+      <h1 id="header-path" class="header-element">
+        <a id="header-root" href="../">Millennial Utopia</a>
+        <span class="header-sep">/</span>
+        <a href="../theory/">Theory</a>
+        <span class="header-sep">/</span>
+        <a id="title" href="../theory/implementation-ideas.html">Implementation Ideas</a></h1>
+      <div class="header-fill"></div>
+    </header>
+    <main class="theory"><div id="page-container">
+  <div id="page-toc" class="contents">
+    <ul>
+<li><a href="#pm-data-sync" id="toc-pm-data-sync">PM data sync</a></li>
+<li><a href="#council-business-tracker" id="toc-council-business-tracker">Council business tracker</a></li>
+<li><a href="#gc-rules-of-order" id="toc-gc-rules-of-order">GC Rules of Order</a></li>
+<li><a href="#time" id="toc-time">Time</a></li>
+</ul>
+  </div>
+  <div id="page-content">
+    <h2 id="pm-data-sync">PM data sync<a href="#pm-data-sync" class="material-symbols-outlined anchor" title="PM data sync">anchor</a></h2>
+<p>Utility which syncs secure personal data in the MU with PM data storage (gcloud, icloud, …)</p>
+<h2 id="council-business-tracker">Council business tracker<a href="#council-business-tracker" class="material-symbols-outlined anchor" title="Council business tracker">anchor</a></h2>
+<p>Live updates on what is under consideration, who has the floor, whether there’s a quorum…</p>
+<p>Come to think of it, this could have little tooltips to show what motions would currently be in order, information about parliamentary procedure…</p>
+<h2 id="gc-rules-of-order">GC Rules of Order<a href="#gc-rules-of-order" class="material-symbols-outlined anchor" title="GC Rules of Order">anchor</a></h2>
+<p>Like it says, for each of the MUG councils. In “contemporary style” (modern language, organized like web docs, …) but make it clear that it’s basically just specific applications of RRO</p>
+<p>RRO style and organization (especially copious notes) as the standard MU documentation style?</p>
+<h2 id="time">Time<a href="#time" class="material-symbols-outlined anchor" title="Time">anchor</a></h2>
+<p>One of the advantages of starting from scratch and slowly building our membership, rather than attempting to manage the transition over an entire population at once, is that we can spruce up a lot of systems that have not aged very well.</p>
+<p>One of these is time: leap years, inconsistent numbering…of course, we should learn our lesson from the French Revolution and not try to go too overboard.</p>
+<p>A “binary timestamp” is an unsigned binary integer of some specified size along with enough reference data to define an epoch:</p>
+<ul>
+<li>A reference event to set the start point of the epoch</li>
+<li>A reference period to set the “tick length” of each timestamp increment that can be represented in the given number of bits</li>
+</ul>
+<p>We will define the Proto-Utopian Epoch to start at the same time as the Unix Epoch (e.g. <code>1970-01-01T00:00.000Z</code>). Eventually, we hope, there will come a time when we can mark the start of the official First Utopian Epoch :)</p>
+<p>As for time scale, let us start with a 128-bit integer and see how much that will get us. First, we can look for some obvious boundaries. Each increment of one Planck time within a single second could be labeled with 144 bits (that is, <span class="math inline">\(21/t_p\)</span>), which is okay because once we’re poking around at that scale, we won’t be limited by such trivia as the number of bits we can afford to spend on timestamps. People are pretty used to using 4 decimal digits to write a year, so let’s say we want to at least be able to count somewhere around that order of years in our epoch. <span class="math inline">\(8192=2^{13}\)</span>, but 13 is an ugly number, so let’s round up to a nice power of 2 like 16. Devoting 16 bits to a year leaves us with 112 bits to divide within each year. This means that our smallest division of time will divide one Earth orbital period into 2112 segments, each equivalent to about 6E-27 seconds, which should be quite adequate for a while. We can now define a conversion constant between Unix milliseconds and 128-bit PUE time:</p>
+<p><span class="math display">\[ k_{PUE128:Ums} = 1.6453109 \times 10^{23} \]</span></p>
+<p>Multiplying Unix millis by this number will give the current “PUE128 time”. Coincidentally, this happens to be on the same order as Avogadro’s number, but I’m pretty sure that’s just a fluke.</p>
+<p>This defines a universal timeline suitable for computers, but doesn’t really satisfy important “real-life” needs that humans are accustomed to. Pretty much everyone will still want to use the Gregorian calendar and hours/minutes/seconds in everyday conversation, but we can also overlay more precise solar and lunar calendars for anyone who cares; it is just a matter of mapping important landmarks (time-marks?) onto the underlying universal timeline.</p>
+  </div>
+</div></main>
+    <footer>
+      <span id="site-source" class="footer-element">
+        <a href="https://github.com/millennial-utopia/millennial-utopia.github.io/">Site Source</a>
+      </span>
+      <span class="footer-divider">|</span>
+      <span id="site-source" class="footer-element">
+        <a href="https://github.com/millennial-utopia/millennial-utopia.github.io/tree/main/content/pages/theory/implementation-ideas.md">Page Source</a>
+      </span>
+      <div class="footer-fill"></div>
+      <span id="built-with" class="footer-element">
+        Built with <a href="https://jaspervdj.be/hakyll">Hakyll</a>
+      </span>
+      <span class="footer-divider">|</span>
+      <span id="hosted-by" class="footer-element">
+        Hosted by <a href="https://pages.github.com">GitHub Pages</a>
+      </span>
+      <span class="footer-divider">|</span>
+      <span id="colors-credit" class="footer-element">
+        <a href="https://github.com/chriskempson/base16">Base16</a> color scheme:
+        <a href="https://github.com/atelierbram/base16-atelier-schemes">Atelier Savanna</a>
+      </span>
+    </footer>
+  </body>
+</html>
