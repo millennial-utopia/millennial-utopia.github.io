@@ -49,6 +49,6 @@ Citara is a crumbling theocracy. Public confidence is waning, food is scarcer, a
 * A joint delegation from Redvale arrives—unarmed—to begin the formal process of merging councils, issuing amnesty, and redistributing remaining resources.
 
 ### Coda – The First Vote
-* A week later, a public vote is held in Citara on the adoption of the Millennial Social Code.
+* A week later, a public vote is held in Citara on the adoption of the new constitution and social code.
 * Alin watches from a rooftop, lemon blossoms drifting in the breeze.
 * The motion passes by overwhelming majority.
