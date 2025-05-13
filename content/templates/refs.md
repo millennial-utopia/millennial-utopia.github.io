@@ -11,3 +11,10 @@ $body$
 [Utopian Capital]: /theory/utopian-capital.html
 [Implementation Ideas]: /theory/implementation-ideas.html
 [Marketing Ideas]: /theory/marketing-ideas.html
+
+[Lemontopia Timeline]: /lemontopia/
+[The Bad Times]: /lemontopia/bad-times.html
+[The Redvale Affair]: /lemontopia/redvale-affair.html
+[The Failed Flood]: /lemontopia/failed-flood.html
+[The Growing Question]: /lemontopia/growing.html
+[The Lemonade Centennial]: /lemontopia/lemonade.html

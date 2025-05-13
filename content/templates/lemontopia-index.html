@@ -2,21 +2,19 @@
   <div id="index-content">
     $body$
   </div>
-  <h2 id="lemontopia-contents">Timeline</h2>
-  <table id="lemontopia-timeline">
-    <thead>
-      <th class="timeline-year"  scope="col">Year</th>
-      <th class="timeline-title" scope="col">Title</th>
-      <th class="timeline-blurb" scope="col">Description</th>
-    </thead>
-    <tbody>
-      $for(section-contents)-$
-      <tr>
-        <td class="timeline-year">$timeline-year$</td>
-        <th class="timeline-title" scope="row"><a href="./$page-id$.html">$page-title$</a></th>
-        <td class="timeline-blurb">$blurb$</td>
-      </tr>
-      $-endfor$
-    </tbody>
+  <h2>Timeline</h2>
+  <div id="lemontopia-timeline">
+    <div id="timeline-header" class="timeline-card">
+      <h3 class="timeline-year">Year</h3>
+      <h3 class="timeline-title">Title</h3>
+      <h3 class="timeline-blurb">Description</h3>
+    </div>
+    $for(section-contents)-$
+    <div class="timeline-card">
+      <div class="timeline-year">$timeline-year$</div>
+      <h4 class="timeline-title"><a href="./$page-id$.html">$page-title$</a></h4>
+      <div class="timeline-blurb">$blurb$</div>
+    </div>
+    $-endfor$
   </table>
 </div>
