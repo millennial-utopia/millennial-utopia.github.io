@@ -16,5 +16,6 @@ $body$
 [The Bad Times]: /lemontopia/bad-times.html
 [The Redvale Affair]: /lemontopia/redvale-affair.html
 [The Failed Flood]: /lemontopia/failed-flood.html
+[The Lemon Blight]: /lemontopia/lemon-blight.html
 [The Growing Question]: /lemontopia/growing.html
 [The Lemonade Centennial]: /lemontopia/lemonade.html
