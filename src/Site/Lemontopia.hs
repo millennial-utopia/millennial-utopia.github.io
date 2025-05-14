@@ -79,6 +79,7 @@ applyLemontopiaTemplates (CompiledPage md pageHTMLItem toc) =
     >>= loadAndApplyTemplate "templates/base.html" baseContext
     >>= relativizeUrls
     where
-      pageContext = constField "toc" toc <> defaultContext
+      -- not sure about toc for lemontopia stories...we'll see
+      pageContext = defaultContext -- constField "toc" toc <> defaultContext
       baseContext = sectionIdContext <> sectionNameContext <> headerTitleContext <> defaultContext
       headerTitleContext = constField "header-title" (pageTitle md)
