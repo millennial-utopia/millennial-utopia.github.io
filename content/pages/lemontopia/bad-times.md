@@ -4,7 +4,7 @@ timeline-year: -9
 blurb: Before unification, Citara's ruling elite controlled the lemon grove and the fertile banks of the Rhizel, hoarding resources and leaving many to struggle with hunger and poverty. A few defiant families fled to the wilderness to build something fairer.
 ---
 
-Tarin Salma stood in the muddy street, looking downriver toward where the Rhizel overflowed its levees, depositing silt and filth among the tenements near the southern wall of Citara. This year's flood wasn't even particulary severe, he knew. But the temple's remaining hydrologists were too busy beautifying the priests' manors upstream, near the Grove, and they hardly ever came to this part of the city anyway. When the stench finally began to drift into the Temple Quarter, however, some priestly functionary had remembered that the disgraced Salma clan had a son with the proper training. And so here he was: escorted by a temple proctor, wearing novice greys despite having earned his journeyman's robe before his family's fall from grace.
+Tarin Salma stood in the muddy street, looking downriver toward where the Rhizel overflowed its levees, depositing silt and filth among the tenements near the southern wall of Citara. This year's flood wasn't even particularly severe, he knew. But the temple's remaining hydrologists were too busy beautifying the priests' manors upstream, near the Grove, and they hardly ever came to this part of the city anyway. When the stench finally began to drift into the Temple Quarter, however, some priestly functionary had remembered that the disgraced Salma clan had a son with the proper training. And so here he was: escorted by a temple proctor, wearing novice greys despite having earned his journeyman's robe before his family's fall from grace.
 
 Even before they set out, Tarin knew what he would find: the riverbed here hadn't been properly dredged in at least two years. The Guild didn't even bother to send the maintenance teams any more, but the Chief Hydrologist still signed off on the reports each month, and everyone just went on with their busy schedule of feasts and elaborate rituals. Tarin had seen all of it during his time in the Guild, and he'd known it was only a matter of time before something like this happened. Still, he welcomed the opportunity to leave his house---even under the watchful eye of a temple proctor.
 
@@ -66,7 +66,7 @@ Iris and Liora returned home to find that Kael had helped the work teams finish 
 
 As Tarin expected, the guards at the Hydrologists Guild forgot about him the moment the proctor left. Their orders were simple: keep him inside until the proctor returned. That left him with free rein of the archives until sundown.
 
-First, though, he sat at a desk and drafted a letter to the Deputy Chief Hydrologist for the Southern City. In it, he attributed the flooding to "an unusually heavy silt deposit this season" and assured them that the river would recede once the buildup was cleared. He doubted a true accounting of the bureaucratic neglect behind the problem would make the work crews arrive any faster.
+First, though, he sat at a desk and drafted a letter to the Deputy Chief Hydrologist for the Southern City. In it, he attributed the flooding to "an unusually heavy silt deposit this season" and assured her that the river would recede once the buildup was cleared. He doubted a true accounting of the bureaucratic neglect behind the problem would make the work crews arrive any faster.
 
 That would satisfy the proctor's demand for results. Now he could get to the real reason he had wanted access to the archives.
 
@@ -76,51 +76,55 @@ Beet yields from the city's terraces---which made up _all_ of Betaria's cultivat
 
 It was obvious where the excess went: to the priests, the guild masters, the landowners. But the root of the problem was the Temple. They controlled the Grove and filled their sermons with reverence for the Sunborn Fruit, the sacred harvest that formed the basis of trade throughout the city. The Grove Stewards allocated their bounty to guild masters and landowners---like the Wardens of the farms---in exchange for services they oversaw. Precious little of it trickled down to the laborers who did the actual work. One lemon could be bartered for enough rations to feed one person for a week. Many scraped by on less, and some survived entirely outside the citrine economy.
 
-For those fortunate enough to have a surplus after trading for essentials, there were luxuries: soap scented with lemon essence, dishes touched with that delicate tartness that spoke of true wealth, or even mere decorations. Among the nobility, a bowl of fresh lemons in the entryway was more than ornament---it was a statement. To be taken seriously, a noble was expected to display their bounty openly, and it was said one could track the tides of political favor by studying the freshness of the fruit on display. Indeed, though his family tried to conceal their fall from favor for as long as possible, Tarin remembered the moment it became undeniable: he hadn't smelled fresh lemons in the house for days. The proctors came soon afterward to move them into a shabby apartment on the outskirts of the district. They were still there, under house arrest. 
+For those fortunate enough to have a surplus after trading for essentials, there were luxuries: soap scented with lemon essence, dishes touched with that delicate tartness that spoke of true wealth, or even mere decorations. Among the nobility, a bowl of fresh lemons in the entryway was more than ornament---it was a statement. To be taken seriously, a noble was expected to display their bounty openly, and it was said one could track the tides of political favor by studying the freshness of the fruit on display. Indeed, though his family had tried to conceal their fall from favor for as long as possible, Tarin remembered the moment it became undeniable: he hadn't smelled fresh lemons in the Salma house for days. The proctors came soon afterward, relocating them to a shabby apartment on the outskirts of the district. They were still there, under house arrest.
+
+Tarin thought back to that day---and to the other ways the Temple exerted its power through its proctors. He knew none of the families with political influence would listen if he tried to explain what he was uncovering; they were all too wary of risking the same fate that had befallen the Salmas. And as for the more disenfranchised Citarans, the Temple maintained more than enough proctors to keep any resistance firmly suppressed. It seemed the only real option would be to escape, and to build something new beyond the Temple's reach.
+
+He returned to the shelves, scanning older scout reports from further upriver, back when the Guild still cared enough to survey the volcanic highlands that formed the source of the Rhizel. He could see why they stopped: the terrain became forbidding as the river ramified through the mountains. But then something caught his eye---a narrow valley just past the first cliffs. Too small for a city, and likely overlooked, but the reports suggested its branch of the Rhizel still swelled with the seasonal floods. It might just be enough to support a small, hidden settlement.
+
+"Salma!" Tarin jumped despite himself, glad that the proctor's voice was still distant, so his nervous reaction wasn't observed. He had been so caught up in committing the route to memory, envisioning their first glimpse of that valley beyond the ridge, that he hadn't marked the fading light outside the window. He forced himself to appear nonchalant as he picked up the reports and began sliding them back into their shelves.
+
+"In the library," he called. "I've just finished my recommendation for the Deputy Chief."
+
+"What about all that equipment you needed?" The proctor stood in the door, swaying slightly. Tarin barely suppressed a smile---apparently the Chief Arborer had kept the cintrelle flowing at his daughter's party.
+
+"I reviewed the records and an embankment shift seemed unlikely after all. However, other reports indicated that an unusual silt buildup could be working its way downstream, and backed up at the watergate. I put the details in the letter." He handed over the folded parchment, which the proctor tucked away in his uniform without a glance. "Am I to return to my home?"
+
+"Yes, you will return to _custody_," the proctor sneered.
+
+They walked in silence back toward the shabby edge of the district. Tarin kept going over the path to the hidden valley in his mind. Now he only had to find a way to start walking up it.
 
 ---
 
-*Note: This is a placeholder outline generated by ChatGPT.*
+To Do:
 
-## Setting: Citara, Year -9 (nine years before unification).
+- The Deputy Chief herself comes calling at the Salmas to deliver thinly veiled warnings to Tarin about spreading word about the guild's ultimate responsibility for the flood. Just to drive home how much power she holds over him, she sends him to help dredge the river.
+- Iris is back in town to pick up some farm supplies for the Warden. She spots Tarin again and strikes up a conversation; Tarin immediately sees her potential as an ally, and they plan to meet at the Inakos.
 
-A deeply stratified society, where access to fertile land, education, and religious rites is tightly controlled by a priestly caste. The lemon grove is considered sacred and symbolic of divine authority. Theocratic rule mixes spiritual dogma with practical power---land ownership is hereditary, justified by ritual. Farming is done by bonded laborers who receive rations but little else.
+---
 
-## Characters / Families
-1. The Salma Family – Former Landholders in Decline
-  * Conflict: Once minor nobility, the Salmas fell out of favor after supporting a failed reformist priest. They live under house arrest and are forbidden from owning land. Their son, Tarin, is bitter but idealistic.
-  * Viewpoint: They expose how dissent is suppressed and how loyalty to values over authority can result in quiet exile, not execution---but only just.
-  * Contribution: Tarin has formal education in agronomy and water management; he carries valuable skills and maps from his family's old estate.
+To Do:
 
-2. The Dareth Family – Bonded Laborers
-  * Conflict: Multi-generational beet farmers near the river, the Dareths are bound to work the land for a landholding family in exchange for food and shelter. Iris Dareth, a sharp-minded mother of three, is furious that her teenage daughter is being pressured to “enter service” at the temple---a euphemism for servitude cloaked in ritual.
-  * Viewpoint: Shows the economic and bodily exploitation under theocratic control. Religion is used to sanctify labor extraction and keep the poor in place.
-  * Contribution: Iris knows how to actually grow beets and organize labor. She has community ties with other bonded workers and an instinct for logistics.
+- Tarin makes up a reason to check the other side of the wall as cover to meet the Dareths at the Inakos shack. They take to his plan surprisingly strongly.
+- They agree to gather trusted allies and set aside useful tools, rations, and seed stock. Niko knows a lapsed priest (Daya Vesh, future spymaster) that could pose as a counselor to Tarin, Iris, and the other conspirators---but in actuality he would be carrying their messages, and eventually use his temple connections to obtain permission for a pilgrimage
+- They plan to leave before the harvest festival, when Liora would be officially inducted into temple service. 
 
-3. The Inakos – Refugee Artisans
-  * Conflict: Originally from a village destroyed in a river shift and denied relocation rights, the Inakos family squats in the outskirts of Citara. Niko Inako forges tools in a hidden kiln and Vela, his partner, is a midwife turned underground teacher.
-  * Viewpoint: Illustrates how climate events exacerbate inequality and how some displaced people become invisible. Also, how tradition limits knowledge-sharing---only sanctioned priests are supposed to teach.
-  * Contribution: Niko and Vela bring technical know-how, a stash of hidden tools, and the moral authority of community caretakers. Vela dreams of a free school where all children learn.
+---
 
-## Plot Outline
+To Do:
 
-### Act I – Quiet Desperation
-* A minor flood damages Citara's southern quarter, causing unrest and resource strain.
-* Tarin, under surveillance, contacts Iris covertly while working on a flood-mitigation team; he admires her fire.
-* Iris saves Niko's child during a crisis and learns of their hidden smithy.
-* The three families realize they share a vision of a better life, but escaping is dangerous---routes out of the fertile lowlands are watched, and religious exile is forbidden.
+- Iris gets word that the temple will be collecting Liora earlier than anticipated
+- They rush to get the "pilgrimage" organized ahead of schedule, and leave the night before the Temple goons arrive
+- With wagons and a party of 20 or so, they make slow progress in the dark with no developed roads. A trip that could have been done in one night by a single traveler spills into the next morning.
+- Warden's scouts come by; they have to hide the wagons (why would pilgrims have so many supplies?), a tense moment
+- They rest and continue on the following night.
+- After initial doubts, Tarin grows more confident in his ability to read the river and they make it to the valley as the next dawn breaks
+- Redvale is founded!
 
-### Act II – The Pact
-* After a tragic incident (perhaps Iris's daughter is publicly shamed or assaulted by temple officials), the families convene in secret.
-* Tarin shares knowledge of an abandoned terraced slope upstream with old irrigation channels and softer soil---survivable, if hard.
-* They agree: they will gather trusted allies and flee under the guise of a sanctioned pilgrimage.
-* Each family risks everything---burning old bridges, stealing or destroying documents, bribing low-ranking guards, and quietly packing tools and seed stock.
+---
 
-### Act III – The Crossing
-* The journey upriver is tense. At one point they're nearly caught by patrols, and must make a dangerous night crossing through the Rhizel's marsh.
-* Vela delivers a child mid-journey; the group delays a day, at great risk, to let them recover---cementing their bond and emphasizing their values.
-* They arrive at a valley ringed by hills and shaded by red-leaved trees: they name it Redvale.
-* They plant their first beets together, building simple shelters and setting up a shared council.
+To Do:
 
-### Coda – First Sprout
-The story ends with the first shoots breaking soil, and a quiet vow that no child of Redvale will ever go hungry or be owned.
+- Daya Vesh offers to return to the city and spread the news that his pilgrimage suffered tragedy: a landslide took out the entire party!
+- This provides cover for the disappeared citizens, and allows him to start building a network back in Citara, sending fresh Redvalers with additional supplies to help them last the first few winters
+- Brief look back at Redvale, where the first rough terraces were constructed over the difficult winter, and the first shoots are starting to break the soil.
