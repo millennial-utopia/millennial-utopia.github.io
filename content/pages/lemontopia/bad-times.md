@@ -92,20 +92,83 @@ He returned to the shelves, scanning older scout reports from further upriver, b
 
 "Yes, you will return to _custody_," the proctor sneered.
 
-They walked in silence back toward the shabby edge of the district. Tarin kept going over the path to the hidden valley in his mind. Now he only had to find a way to start walking up it.
+They walked in silence back toward the shabby edge of the district. Tarin kept going over the path to the hidden valley in his mind. Now he only had to find a way to start walking it.
+
+---
+
+Three days later, Iris was back in town, this time with a bundle of farm reports under her arm for the Chief Warden. As she picked her way up the silt-strewn street, she was surprised to see the Guild hydrologist again, this time up to his waist in the river channel and wrestling a wooden frame into place with a team of laborers. Glancing around, she saw his proctor shadow too---twenty yards away, chatting with some other proctors who were presumably in charge of the laborers.
+
+She stood a ways off, watching him work, and confirming her earlier judgment. The self-assured way he directed the other laborers to help him lever the boards into place, then stood back to reevaluate the river's flow---this was no mere apprentice; he must be a journeyman, or _had_ been, and had fallen afoul of the Temple for whatever reason. The next time he climbed the levee, she checked that the proctors were still preoccupied, then fell in beside him.
+
+"Your feet are pretty wet for a journeyman," she said, and was gratified to see the stunned look that flickered across his face at the title. She had been right after all.
+
+Tarin recovered quickly, turning to see if this was an old Guild acquaintance. He was surprised again to recognize her from the street the other day.
+
+"Oh, I...I'm sorry, do I know you from the Guild?"
+
+"No, we haven't met," Iris assured him. "I was merely curious why someone with so much Guild training was wearing those robes. My name is Iris Dareth." She bowed slightly.
+
+"Nice to meet you. I'm Tarin. Tarin Salma," he said, returning the bow while watching to see if she recognized his tarnished family name. Seeing no response, he went on: "I'm here because I have...drawn the ire of the Deputy Chief Hydrologist."
+
+In fact, the Deputy Chief had personally shown up at the Salma residence that morning, interrupting another subdued breakfast in which Tarin and his parents, Ellar and Maelen, each quietly cast about for something to talk about---something that didn't risk opening a vent to their mutual resentment of the Temple, and wasn't just empty words. They hadn't found it yet.
+
+At the sound of the Guild guard's heavy knocking on the door, Ellar's face drained of color. He glanced at Maelen and Tarin in turn, clearly terrified that the Temple had decided to take them away after all. Then he steeled himself and went to open the door.
+
+"Deputy Chief Dhalis!" his voice held a mix of relief that it wasn't a squad of Temple proctors, and concern for why she would have come all the way herself. On hearing that name, it was Tarin's turn to blanch.
+
+"Salma." The Deputy Chief pushed her way in, and her gaze immediately fixed on Tarin. "We need to talk. You two"---she gestured to his parents---"wait outside with the guards. We'll only be a moment."
+
+His parents turned questioning looks on Tarin, clearly curious---and more than a little concerned. He had, of course, told them about the flood and that he'd submitted a recommendation to the Deputy Chief, but nothing about the hidden valley. Not yet. Not until he had a real plan. As they stepped out, Tarin tried not to visibly panic while his mind raced: _had he left any of the maps out_?
+
+"I got your letter," Dhalis said levelly once they were alone. "I also know that there's no such thing as an _unusual silt deposit_."
+
+Tarin swallowed hard. At least it wasn't the maps. But the Deputy Chief was not a fool like the proctor---he would have to tread carefully.
+
+"That was merely one possible explanation," Tarin said, choosing his words with care. "I didn't mean to---"
+
+"You didn't mean to piss me off by pointing out that we haven't dredged the river down there for three floods?" she cut in. "Please. I know the river, Salma. I know my people. I also know that if the Deacons don't have water singing in their temple fountains, they start bothering the Chief. And the Chief doesn't want to hear about how all of my crews are busy scooping silt downstream."
+
+_Three floods!_ Tarin reeled inwardly. It was a miracle that the past few years had seen gentler rains.
+
+He considered his options. He'd thought his mucking days were over the moment he left his apprentice robes behind. But if he wanted to lift his family out of their current straits, he needed a reason to be outside. To move freely. To find allies.
+
+"Could...I be of any assistance in clearing the river?" he asked, hoping he came across as merely helpful, not desperate.
+
+She studied him for a moment. Tarin couldn't tell if she was suspicious, or simply surprised he'd volunteered.
+
+"You will join the dredging crew, and ensure they finish before the rains. But don't get me wrong---you are not a Guild member any more. You're not leading anyone. You're getting your feet wet, same as the rest. And your proctor friend reports directly to me if you start getting ideas above your station."
+
+She stood as she spoke, taking full advantage of the chance to loom over him.
+
+"Is that clear?"
+
+Tarin nodded quickly, no longer trusting himself to speak.
+
+The crack of a laborer hammering the next plank into the shiftgate brought him out of the memory. He glanced around guiltily.
+
+"Don't worry, the proctors are still over there attending to their flask of rootshine," Iris said with a smirk. "I take it the Deputy Chief isn't the only one making your life difficult---what did you do to get a proctor shadowing you?"
+
+Tarin was overcome with a desire to _talk_ to someone, finally, but he was still wary. "My family was...associated with Tovan Marel." He saw her eyes widen in recognition of the name; the Temple was not sparing in its denunciations. "We are still under house arrest; I am only here because none of the other Guild hydrologists were...available."
+
+Iris snorted. "None could be bothered, more like. I deliver reports to the Chief Warden"---she indicated the bundle in her arms---"I've seen what passes for work closer to the Grove."
+
+She watched his lip start curling, then freeze as he remembered he was talking to a stranger. Iris was aware that she was taking a risk speaking so frankly, but she had little time and she could see him hesitating. Liora was being taken in a matter of months; a Guild-trained hydrologist would be invaluable if they managed to escape.
+
+"Why are you talking to me, Iris?" Tarin asked finally.
+
+Now she lowered her voice. "My family, and other families I know, have also been mistreated by the Temple. We know how hard it is to find friends. How hard it is to feel alone. I know they would like to meet you."
+
+Tarin hesitated again, his eyes fixed on the churning brown water. But by now, he knew he would not be able to resist.
+
+"Tomorrow, I could make an excuse to check the other side of the watergate," he suggested. "There are some sheds..."
+
+Now Iris gave him a smile that reached her eyes. "I know just the one."
 
 ---
 
 To Do:
 
-- The Deputy Chief herself comes calling at the Salmas to deliver thinly veiled warnings to Tarin about spreading word about the guild's ultimate responsibility for the flood. Just to drive home how much power she holds over him, she sends him to help dredge the river.
-- Iris is back in town to pick up some farm supplies for the Warden. She spots Tarin again and strikes up a conversation; Tarin immediately sees her potential as an ally, and they plan to meet at the Inakos.
-
----
-
-To Do:
-
-- Tarin makes up a reason to check the other side of the wall as cover to meet the Dareths at the Inakos shack. They take to his plan surprisingly strongly.
+- Tarin makes up a reason to check the other side of the wall as cover to meet the Dareths at the Inakos shack. They take to his plan immediately.
 - They agree to gather trusted allies and set aside useful tools, rations, and seed stock. Niko knows a lapsed priest (Daya Vesh, future spymaster) that could pose as a counselor to Tarin, Iris, and the other conspirators---but in actuality he would be carrying their messages, and eventually use his temple connections to obtain permission for a pilgrimage
 - They plan to leave before the harvest festival, when Liora would be officially inducted into temple service. 
 
